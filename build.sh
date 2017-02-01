@@ -6,6 +6,6 @@ printf "  version: ${TRAVIS_TAG}\r\n" >> cdep-manifest.yml
 printf "android:\r\n" > cdep-manifest.yml
 printf "  - file: boost_1_63_0.zip\r\n" >> cdep-manifest.yml
 printf "    include: boost_1_63_0/boost\r\n\n" >> cdep-manifest.yml
-printf "linux:\r\n" > cdep-manifest.yml
+printf "linux:\r\n" >> cdep-manifest.yml
 printf "  - file: boost_1_63_0.zip\r\n" >> cdep-manifest.yml
 printf "    include: boost_1_63_0/boost\r\n" >> cdep-manifest.yml
