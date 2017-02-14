@@ -1,4 +1,4 @@
-wget https://sourceforge.net/projects/boost/files/boost/1.63.0/boost_1_63_0.zip
+wget https://github.com/jomof/boost/releases/download/1.0.63-rev9/boost_1_63_0.zip
 SHASUM256=$(shasum -a 256 boost_1_63_0.zip | awk '{print $1}')
 
 printf "coordinate:\r\n" >> cdep-manifest.yml
