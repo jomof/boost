@@ -11,12 +11,12 @@ printf "  - archives:\r\n" >> cdep-manifest.yml
 printf "    - file: boost_1_63_0.zip\r\n" >> cdep-manifest.yml
 printf "      sha256: $SHASUM256\r\n" >> cdep-manifest.yml
 printf "      size: $ARCHIVESIZE\r\n" >> cdep-manifest.yml
-printf "  - include: boost_1_63_0\r\n\n" >> cdep-manifest.yml
+printf "    include: boost_1_63_0\r\n\n" >> cdep-manifest.yml
 printf "linux:\r\n" >> cdep-manifest.yml
 printf "  - archives:\r\n" >> cdep-manifest.yml
 printf "    - file: boost_1_63_0.zip\r\n" >> cdep-manifest.yml
 printf "      sha256: $SHASUM256\r\n" >> cdep-manifest.yml
 printf "      size: $ARCHIVESIZE\r\n" >> cdep-manifest.yml
-printf "  - include: boost_1_63_0\r\n\n" >> cdep-manifest.yml
+printf "    include: boost_1_63_0\r\n\n" >> cdep-manifest.yml
 
 cat cdep-manifest.yml
