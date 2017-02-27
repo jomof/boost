@@ -2,7 +2,7 @@ language: script
 script:
 - ./build.sh
 - chmod +x cdep cmakeify
-- cp cmakeify.yml .cdep/examples/cmake
+# - cp cmakeify.yml .cdep/examples/cmake
 # - ./cdep
 #- ./cmakeify -wf .cdep/examples/cmake
 deploy:
