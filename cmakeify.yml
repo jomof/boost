@@ -1,7 +1,7 @@
 targets: [android]
 android:
   ndk:
-    versions: [r13b, r14-beta1]
-    runtimes: [c++, gnustl, stlport]
+    versions: [r13b]
+    runtimes: [c++, gnustl]
     platforms: [12, 21]
 
