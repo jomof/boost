@@ -7,17 +7,11 @@ printf "  groupId: com.github.jomof\r\n" >> cdep-manifest.yml
 printf "  artifactId: boost\r\n" >> cdep-manifest.yml
 printf "  version: ${TRAVIS_TAG:-0.0.0}\r\n" >> cdep-manifest.yml
 printf "android:\r\n" >> cdep-manifest.yml
-printf "  - archives:\r\n" >> cdep-manifest.yml
+printf "  archives:\r\n" >> cdep-manifest.yml
 printf "    - file: boost_1_63_0.zip\r\n" >> cdep-manifest.yml
 printf "      sha256: $SHASUM256\r\n" >> cdep-manifest.yml
 printf "      size: $ARCHIVESIZE\r\n" >> cdep-manifest.yml
-printf "    include: boost_1_63_0\r\n\n" >> cdep-manifest.yml
-printf "linux:\r\n" >> cdep-manifest.yml
-printf "  - archives:\r\n" >> cdep-manifest.yml
-printf "    - file: boost_1_63_0.zip\r\n" >> cdep-manifest.yml
-printf "      sha256: $SHASUM256\r\n" >> cdep-manifest.yml
-printf "      size: $ARCHIVESIZE\r\n" >> cdep-manifest.yml
-printf "    include: boost_1_63_0\r\n\n" >> cdep-manifest.yml
+printf "      include: boost_1_63_0\r\n\n" >> cdep-manifest.yml
 printf "example: |\r\n" >> cdep-manifest.yml
 printf "  #include <boost/numeric/ublas/matrix.hpp>\r\n" >> cdep-manifest.yml
 printf "  void test() {\r\n" >> cdep-manifest.yml
