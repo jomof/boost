@@ -20,7 +20,12 @@ printf "      size: $ARCHIVESIZE\r\n" >> cdep-manifest.yml
 printf "    include: boost_1_63_0\r\n\n" >> cdep-manifest.yml
 printf "example: |\r\n" >> cdep-manifest.yml
 printf "  #include <boost/numeric/ublas/matrix.hpp>\r\n" >> cdep-manifest.yml
-printf "  #include <boost/numeric/ublas/matrix.hpp>\r\n" >> cdep-manifest.yml
+printf "  #include <boost/wave.hpp>\r\n" >> cdep-manifest.yml
+printf "  #include <boost/ratio.hpp>\r\n" >> cdep-manifest.yml
+printf "  #include <boost/range.hpp>\r\n" >> cdep-manifest.yml
+printf "  #include <boost/timer.hpp>\r\n" >> cdep-manifest.yml
+printf "  #include <boost/python.hpp>\r\n" >> cdep-manifest.yml
+printf "  #include <boost/variant.hpp>\r\n" >> cdep-manifest.yml
 printf "  void test() {\r\n" >> cdep-manifest.yml
 printf "     using namespace boost::numeric::ublas;\r\n"  >> cdep-manifest.yml
 printf "     matrix<double> m (3, 3);\r\n" >> cdep-manifest.yml
