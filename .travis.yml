@@ -2,8 +2,8 @@ language: script
 script:
 - ./build.sh
 - chmod +x cdep cmakeify
-- cp cmakeify.yml .cdep/examples/cmake
 - ./cdep
+- cp cmakeify.yml .cdep/examples/cmake
 - ./cmakeify -wf .cdep/examples/cmake
 deploy:
   api_key:
