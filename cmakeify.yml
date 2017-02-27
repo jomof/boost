@@ -1,4 +1,5 @@
 targets: [android]
+badges: no
 android:
   ndk:
     versions: [r13b]
