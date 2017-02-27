@@ -2,9 +2,9 @@ language: script
 script:
 - ./build.sh
 - chmod +x cdep cmakeify
-# - cp cmakeify.yml .cdep/examples/cmake
-# - ./cdep
-#- ./cmakeify -wf .cdep/examples/cmake
+- cp cmakeify.yml .cdep/examples/cmake
+- ./cdep
+- ./cmakeify -wf .cdep/examples/cmake
 deploy:
   api_key:
     secure: NXzU3aWHxGSZwrtpl+ryY+cVXUUdHOb5omBZ4werh95tHEgIeA+3KWpL1J0p2oShZeQq+ATxn1ygC/I6O0iwK+jxQbdX3RtBRD5LSryExqvK9JkTakOjy9SLOmcRW9HAFoMsVmWovxpG7jX7pslb4YCoEISJmAPANFg84BPzixRy1dS57PxM5FEsRH71XbzQLT8BSbaNYAt4ACGvi3ncY0tZaGsWYamQsWMKBTUMP5chKZjXxjxCiS2v3wDRpVTjEt0V0cmg9GhiKhdSp94tRbfSia7vjyXewCQg1ogXCAG3zmJAKVdoM/W0jmFcYcrC7uFwIbeb0mMauraTT5Po+J+T+CLseIIsyrGQXHY5kfoaagjmzQCFHxVdcttZuopo1mDJm4Nl0jUJYWUD5ySXCk4xsK9DrcoDrn9S/W74YaPcUr5sAAI8w65m5c2k220+gTHkgdTu/aVnVdFc8yaA2XurDNcD5dNv/D2/78RggU3ouycxP2qwiPV/J9wj06hgaOTxYKJBoKpGnjPpYJWM18Srzrw+HveYjXt1Tyvi/dsVlWTobAOXusymPUsrN3Cc6TUHlZvzRk3MaSoZ5YHbI5rjgSVyG47Q4KWKbv62ENL9pmukXR4QjTMbychqcA1d/8IPWR1ELYRHuUaNwFdM8iX6UpniP0A+x19dzXExOIQ=
