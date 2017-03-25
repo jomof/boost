@@ -1,4 +1,4 @@
-targets: [android]
+targets: [android, linux]
 badges: no
 android:
   ndk:
