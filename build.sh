@@ -6,7 +6,7 @@ printf "coordinate:\r\n" >> cdep-manifest.yml
 printf "  groupId: com.github.jomof\r\n" >> cdep-manifest.yml
 printf "  artifactId: boost\r\n" >> cdep-manifest.yml
 printf "  version: ${TRAVIS_TAG:-0.0.0}\r\n" >> cdep-manifest.yml
-printf " archives:\r\n" >> cdep-manifest.yml
+printf " archive:\r\n" >> cdep-manifest.yml
 printf "   file: boost_1_63_0.zip\r\n" >> cdep-manifest.yml
 printf "   sha256: $SHASUM256\r\n" >> cdep-manifest.yml
 printf "   size: $ARCHIVESIZE\r\n" >> cdep-manifest.yml
