@@ -1,4 +1,4 @@
-targets: [android, linux]
+targets: [android]
 includes: [include]
 badges: no
 android:
